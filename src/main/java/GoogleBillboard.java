@@ -2,13 +2,11 @@ public final static String e = "2.7182818284590452353602874713526624977572470936
 public void setup()  
 {        
     double dNum;
-     System.out.println(e.substring(0,11));
-     System.out.println(isPrime(Double.parseDouble(2 + e.substring( 2, 10))));
+    isPrime(Double.parseDouble(2 + e.substring( 2, 10)));
     for(int x = 10; x < e.length()-9; x+=10){
-   
      dNum = Double.parseDouble(e.substring(x, x+10));
+     if(isPrime(dNum) == true)
      System.out.println(dNum);
-     System.out.println(isPrime(dNum));
    
     }
   
