@@ -1,7 +1,7 @@
 public class GoogleBillboard {
   public final static String e = "2.7182818284590452353602874713526624977572470936999595749669676277240766303535475945713821785251664274274663919320030599218174135966290435";  
   public static void main(final String[] args) {
-        double dNum;
+    double dNum = 0.0;
     for(int x = 10; x < e.length()-9; x+=10){
      dNum = Double.parseDouble(e.substring(x, x+10));
      if(isPrime(dNum) == true)
@@ -10,18 +10,16 @@ public class GoogleBillboard {
   }
 
   //Finish this function
-  public static boolean isPrime(double num){
+  public boolean isPrime(double num){
   
-  if(num < 2)
+  if(num < 2){
   return false;
-  
-  
-  for(int x = 2; x <= Math.sqrt(num); x++)
-  if(num % x == 0)
+  }
+  for(int x = 2; x <= Math.sqrt(num); x++){
+  if(num % x == 0){
   return false;
-  
- 
-  
+  }
+  }
   return true;
   
   }
