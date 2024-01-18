@@ -7,7 +7,7 @@ public class GoogleBillboard {
      if(isPrime(dNum) == true)
      System.out.println(e.substring(x, x+10));
   }
-  
+  }
 
   //Finish this function
   public boolean isPrime(double num){
@@ -23,6 +23,6 @@ public class GoogleBillboard {
  
   
   return true;
-  }
+  
   }
 }
