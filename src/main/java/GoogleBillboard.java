@@ -10,19 +10,19 @@ public class GoogleBillboard {
   
 
   //Finish this function
-  public boolean isPrime(dNum){
+  public boolean isPrime(double num){
   
-  if(dNum < 2)
+  if(num < 2)
   return false;
   
   
-  for(int x = 2; x <= Math.sqrt(dNum); x++)
-  if(dNum % x == 0)
+  for(int x = 2; x <= Math.sqrt(num); x++)
+  if(num % x == 0)
   return false;
   
  
   
   return true;
   }
-}
+  }
 }
