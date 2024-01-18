@@ -8,7 +8,7 @@ public class GoogleBillboard {
      System.out.println(e.substring(x, x+10));
     }
   }
-}
+
 
 
   public static boolean isPrime(double num){
@@ -22,4 +22,6 @@ public class GoogleBillboard {
   }
   return true;
   }
+
+}
 
