@@ -6,13 +6,12 @@ public class GoogleBillboard {
      dNum = Double.parseDouble(e.substring(x, x+10));
      if(isPrime(dNum) == true)
      System.out.println(e.substring(x, x+10));
-  }
-     
+    }
   }
 }
 
 
-  public boolean isPrime(double num){
+  public static boolean isPrime(double num){
   if(num < 2){
   return false;
   }
@@ -22,6 +21,5 @@ public class GoogleBillboard {
   }
   }
   return true;
-  
   }
 
